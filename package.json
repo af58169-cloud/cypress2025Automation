@@ -1,0 +1,23 @@
+{
+  "name": "cypress2025automation",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "braveTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day1_12152025/brave_search.cy.js'",
+    "uspsTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/AI01_USPS_Tracking.cy.js'",
+    "geicoTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/AI02_Geico.cy.js'",
+    "actionItem": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/*'",
+    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Action_Item/brave_search.cy.js'"
+
+  },
+  "devDependencies": {
+    "cypress": "^15.7.1",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.4"
+  }
+}
