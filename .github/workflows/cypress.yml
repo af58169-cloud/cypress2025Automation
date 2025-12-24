@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run Cypress tests
-        run: npm run braveTestHeadless
+        run: npm run braveHeadlessTest
         continue-on-error: true   # ⭐ IMPORTANT
 
       - name: Upload Mochawesome report (HTML)
