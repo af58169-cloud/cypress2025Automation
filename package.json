@@ -12,7 +12,7 @@
     "uspsTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/AI01_USPS_Tracking.cy.js'",
     "geicoTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/AI02_Geico.cy.js'",
     "actionItem": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Action_Item/*'",
-    "braveTestHeadless": "npx cypress run --browser chrome --spec 'cypress/e2e/Action_Item/brave_search.cy.js'"
+    "braveHeadlessTest": "npx cypress run --browser chrome --spec 'cypress/e2e/Action_Item/brave_search.cy.js'"
 
   },
   "devDependencies": {
